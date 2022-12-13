@@ -85,10 +85,7 @@ const Film = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">
-              {movie.title}
-              <div className="badge badge-secondary">POPULAR!</div>
-            </h2>
+            <h2 className="card-title">{movie.title}</h2>
             <p>{movie.overview}</p>
             <div className="card-actions justify-end">
               <div className="badge badge-primary">{`⭐ ${movie.vote_average}`}</div>
