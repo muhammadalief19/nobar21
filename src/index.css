@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  font-family: "inter";
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #hero {
